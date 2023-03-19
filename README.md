@@ -1,1 +1,1 @@
-# check-modified-last-on-linux
+In this script, you can replace "/path/to/directory" with the path of the directory you want to check. The os.walk() function is used to loop through all files and subdirectories in the directory. For each directory, the os.path.getmtime() function is used to get the timestamp of the last modification, and the datetime.datetime.fromtimestamp() function is used to convert the timestamp to a datetime object. Finally, the directory path and modification time are printed to the console.
